@@ -9,6 +9,7 @@ html {
 	float: left;
 	border: 1px solid gray;
 	position: relative;
+	border-radius: 10px;
 }
 
 #welcome {
