@@ -1,0 +1,20 @@
+Credit goes to:
+
+	Daniel D. Bruce for
+
+		1. Coming up with the idea.
+		2. Website styling.
+		3. Writing all documentation.
+
+	Justin Jones for
+
+		1. Assisting in writing db-init.sql.
+		2. Writing php functions to interact with the database.
+		3. Styling the page with Bootstrap.
+		4. assisting in writing back-end development.
+
+	Aaron Woodrow Sedlacek for
+
+		1. Writing this.
+		2. Writing the readme.
+		3. Assisting in back-end development.

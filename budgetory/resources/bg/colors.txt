@@ -1,0 +1,7 @@
+Gray: 8e8e8e
+
+Red: a30000
+
+Yellow: dfd026
+
+Green: 04ad00

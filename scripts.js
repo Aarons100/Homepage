@@ -31,7 +31,7 @@ $(document).ready(function() {
 
 		$("#projects").click(function() {
 
-			var foo = "<ul><li><a href='./hexxed/index.html'>Hexxed</a></li></ul>";
+			var foo = "<ul><li><a href='./hexxed/index.html'>Hexxed</a></li><br><li><a href='./budgetory/index.php'>Budgetory</a></li></ul>";
 
 			$("#main-menu").html("<div id='projects-list'>" + foo + "</div><div id='return' class='border'>Return to Main Menu</div>");
 

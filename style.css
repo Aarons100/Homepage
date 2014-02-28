@@ -12,6 +12,13 @@ html {
 	border-radius: 10px;
 }
 
+#projects-list {
+	width: 400px;
+	height: 400px;
+	margin-bottom: -90px;
+	font-size: 20px;	
+}
+
 #description {
 	width: 400px;
 	height: 400px;
