@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 	function init() {
 		//this stores the initial content for the page menu
-		var temp = "<h1 id='menu-header' class='border'>Main Menu</h1><ul><li class='border' id = 'projects'>Projects</li><br><li><a href='./resources/resume.pdf'>click here to view my résumé (PDF)</a></li><br><li class='border' id='about'> About Me</li></ul>"
+		var temp = "<h1 id='menu-header' class='border'>Main Menu</h1><ul><li class='border' id ='projects'>Projects</li><br><li><a href='./resources/resume.pdf' id='resume'>click here to view my résumé (PDF)</a></li><br><li class='border' id='about'> About Me</li></ul>"
 		//put content on page
 		$("#main-menu").html(temp);
 		//if about me text is clicked:
