@@ -31,7 +31,7 @@ $(document).ready(function() {
 
 		$("#projects").click(function() {
 
-			var foo = "<h1 id='menu-header' class='border'>Projects</h1><ul><li><a href='./hexxed/index.html'>Hexxed</a></li><br><li><a href='./budgetory/index.php'>Budgetory</a></li><br><li><a href='http://www.rpibookswap.com'>rpibookswap.com</a></li></ul>";
+			var foo = "<h1 id='menu-header' class='border'>Projects</h1><ul><li><a href='./hexxed/index.html'>Hexxed</a></li><br><li><a href='./budgetory/index.php'>Budgetory</a></li><br><li><a href='http://www.rpibookswap.com'>rpibookswap.com</a></li><br><li><a href='http://upost.herokuapp.com/'>uPost</a></li></ul>";
 
 			$("#main-menu").html("<div id='projects-list'>" + foo + "</div><div id='return' class='border'>Return to Main Menu</div>");
 
