@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
+	//this function reloads the initial main menu when the user clicks "RETURN TO MAIN MENU"
 	function reinit() {
-
 		$("#return").click(function() {
 			init();
 		});
@@ -14,9 +14,9 @@ $(document).ready(function() {
 		$("#main-menu").html(temp);
 		//if about me text is clicked:
 		$("#about").click(function() {
-
+			//holds my description of myself
 			var desc = "My name is Aaron Sedlacek, I'm an Information Technology and Web Science Student at Rensselaer Polytechnic Institute. My main areas of focus are Information Security and Cryptography. I graduated from Chaminade High School in 2010 and I am a member of the International Fraternity of Phi Gamma Delta. My primary areas of expertise are Web Application Exploitation, Penetration Testing, and Social Engineering.";
-	
+			//for output
 			var foo = "<h1 id='menu-header'>ABOUT ME</h1><div id='desc'>" + desc + "</div>";
 
 			$("#main-menu").html("<div id='about-me'>" + foo + "</div><br/><div id='return'>RETURN TO MAIN MENU</div>");
@@ -31,10 +31,9 @@ $(document).ready(function() {
 			$("#main-menu").html("<div id='projects-list'>" + foo + "</div><div id='return'>RETURN TO MAIN MENU</div>");
 
 			reinit();
-
 		});
 	}
-	//calls init function
+	//calls init function on initial page load
 	init();
 	//makes main manu draggable
 	$(function() {
