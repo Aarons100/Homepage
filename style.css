@@ -4,61 +4,50 @@
   font-weight: 400;
   src: local('Raleway'), url(./Raleway/Raleway-Regular.ttf);
 }
-
 @font-face{
 	font-family: 'Domine';
 	font-style: normal;
 	font-weight: 400;
 	src: local('Domine'), url(./Domine/Domine-Regular.ttf);
 }
-
 html {
 	background: url(./resources/brushed.png);
 }
-
 body {
 
 	font-family: 'Raleway';
 	letter-spacing: 4px;
 	font-size: 100%;
 }
-
 header {
 	font-family: 'Domine';
 	letter-spacing: normal;
 	text-align: center;
 }
-
 #main-menu {
 	margin-right: auto;
 	margin-left: 0%;
 }
-
 #main-menu ul {
 	list-style-type: none;
 }
-
 #my_image {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
 }
-
-#projects {
+#work {
 	cursor: pointer;
 }
-
 #about {
 	cursor: pointer;
 }
-
 a {
 	text-decoration: none;
 	color: black;
 }
-
-#main-menu #desc {
+.dense_text {
 	font-size: 85%;
 	width: 80%;
 	padding-left: 5%;
@@ -70,31 +59,26 @@ a {
 #return {
 	cursor: pointer;
 }
-
 footer {
 
 	width: 100%;
 	margin-bottom: 0%;
 	text-align: center;
 }
-
 footer p {
 
 	font-size: 55%;
 	font-weight: lighter;
 	text-align: center;
 }
-
 #rpi_logo img{
 	width: 5%;
 	height: 5%;
 }
-
 #rpisec_logo img {
 	width: 20%;
 	size: 20%;
 }
-
 #fiji_logo img {
 	width: 5%;
 	size: 5%;
