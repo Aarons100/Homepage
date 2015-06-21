@@ -15,7 +15,15 @@ $(document).ready(function() {
 		//if about me text is clicked:
 		$("#about").click(function() {
 			//holds my description of myself
-			var desc = "My name is Aaron Sedlacek, I'm an Information Technology and Web Science Student at Rensselaer Polytechnic Institute. My main areas of focus are Information Security and Cryptography. I graduated from Chaminade High School in 2010 and I am a member of the International Fraternity of Phi Gamma Delta. My primary areas of expertise are Web Application Exploitation, Penetration Testing, and Social Engineering.";
+			var desc = "My name is Aaron Sedlacek, I'm an undergraduate student at Rensselaer Polytechnic Institute (<a href='http://rpi.edu/'>RPI</a>). ";
+				desc += "I'm currently working on both a B.S. and an M.S. in Information Technology and Web Science. ";
+				desc += "On top of that, I'm very involved with RPISEC, RPI's cyber security club. I'm currently the Secretary of the club, and I'm on the RPISEC ctf team. ";
+				desc += "I spend my free time advancing my skills by tearing through old CTF challenges and reversing software. ";
+				desc += "My Master's research is on rootkit design, development, and implementations on modern systems. This includes kernel and firmware level rootkits. ";
+				desc += "I'm also researching malware design principles that prevent the creation of useful signatures in order to subvert Antivirus. ";
+				desc += "Also also, I'm teaching Malware Analysis at RPI in Fall 2015, and helping to teach Cryptography and Network Security as well. "
+				desc += "When I'm not doing any of that, I spend time socializing with friends in my fraternity, Phi Gamma Delta, and in the cybersecurity community. ";
+				desc += "<h4>Feel free to contact me! I sit in the RPISEC IRC using my handle, Aidielse.</h4>";
 			//for output
 			var foo = "<h1 id='menu-header'>ABOUT ME</h1><div id='desc'>" + desc + "</div>";
 
