@@ -12,8 +12,8 @@ $(document).ready(function() {
 		var temp = "<h1 id='menu-header'>MAIN MENU</h1>";
 		temp += "<ul>"
 		temp += "<li id ='work'>WORK</li>";
-		temp += "<br><li><a href='./resources/resume.pdf' id='resume'>RÉSUMÉ (PDF)</a></li>";
-		temp += "<br><li id='about'> ABOUT ME</li></ul>";
+		temp += "<br/><li><a href='./resources/resume.pdf' id='resume'>RÉSUMÉ (PDF)</a></li>";
+		temp += "<br/><li id='about'> ABOUT ME</li></ul>";
 		//put content on page
 		$("#main-menu").html(temp);
 		//if about me text is clicked:
@@ -31,14 +31,14 @@ $(document).ready(function() {
 			//for output
 			var foo = "<h1 id='menu-header'>ABOUT ME</h1><div class='dense_text'>" + desc + "</div>";
 
-			$("#main-menu").html("<div id='about-me'>" + foo + "</div><br/><div id='return'>RETURN TO MAIN MENU</div>");
+			$("#main-menu").html("<div id='about-me'>" + foo + "</div><div id='return'>RETURN TO MAIN MENU</div>");
 
 			reinit();
 		});
 
 		$("#work").click(function() {
 
-			var foo = "<h1 id='menu-header'>Work</h1>";
+			var foo = "<h1 id='menu-header'>WORK</h1>";
 			foo += "<ul class='dense_text'>";
 
 			foo += "<li><h3>Recommended Books for Fun and Profit</h3>";
@@ -55,7 +55,7 @@ $(document).ready(function() {
 			foo += "<li><h3>Malware Analysis, Fall 2015 (CSCI - 4976/6976)</h3>";
 			foo += "<ul><li>The course is a graduate level / senior level class that teaches the fundamentals of software reverse engineering, Windows intenals, and malware behavior in order to provide students with the tools and the experience to step directly into the field of malware analysis.";
 			foo += "This class is based on the Practical Malware Analysis and Practical Reverse Engineering books, which are both very excellent for entry level, intermediate, and advanced reverse engineers.</li>";
-			foo += "<br><h4 style='display:inline;'> I will add a link to the class syllabus and website once they are finalized.</h4></li></ul>"
+			foo += "<br/><h4 style='display:inline;'> I will add a link to the class syllabus and website once they are finalized.</h4></li></ul>"
 			
 			foo += "<li><h3>CTF and Wargame Writeups</h3>"
 			foo += "<ul>"

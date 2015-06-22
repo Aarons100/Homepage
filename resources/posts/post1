@@ -1,0 +1,18 @@
+ 
+Wow, my very first post! So what made me decide to start a security blog? To be honest, I thought that it would be a fun way to document my progress as a hacker and force myself to do a little bit of creative thinking. I'm going to try to get one of these out every two weeks or so.
+
+For my first post, I want to talk about how crazy high the barrier to entry is for beginners. If you want to be more than a script kiddie, you can't even really start on the real meat and potatoes until you digest a huge bulk of background material. Not only that, but the community can be very intimidating to someone who is completely new.
+
+You really do pick up a lot of background information by working through challenges, but the volume of information ends up being immense. Let's be clear here, I'm still very much an amateur, but even to get here the background knowledge alone is at least the equivalent of a B.S. in Computer Science!
+
+Hell, I know CS students who graduate from RPI without knowing what the stack or heap are. Not only that, but they barely know a single outdated assembly language (MIPS), don't know how to use a debugger or any sort of dynamic instrumentation, and have no idea what the inside of a kernel even really looks like. Anyway, I sort of went off topic there. I just really want to stress how much a beginner really needs to learn in order to just get started.
+
+The other half of this immense barrier is the community itself. The hacking community is extremely intimidating for beginners, amateurs, and even professionals. To a beginner, everyone comes across as gods who only speak to each other by writing moon runes and speaking gibberish. Learning to solve challenges and write exploits is very difficult, and beginners often have to ask for help. Most people who are just starting out tend to ask for help in the wrong ways, and get berated for it. They then misinterpret this as "Asking for help or advice is not allowed" and give up.
+
+At a first glance (which is usually the only glance that beginners ever make), hacking requires an immense background in computer science, is incredibly difficult, and doesn't really have any place that you can go for help. this is why most people quit very early on. The only real way to get the community to open up to you is to be more skilled. The only thing that's really respected in the hacking world is someone's ability.
+
+I personally hit all of these obstacles when I was just starting out. It took me two years to go from solving my first few wargame challenges to actually starting to play in CTF's. I didn't really have that thirst for knowledge and that hunger for success. For the first couple of years, I was unmotivated and I had no one supporting me. It was only when I got involved with RPISEC in Early February that I was able to really light that fire.
+
+I can't even begin to imagine how many years it would have taken me to get to where I am today without RPISEC. I got very lucky to get pulled into a sub-circle of the cybersecurity community that was very friendly and willing to teach. RPISEC fueled that tiny spark for learning until it was a wildfire. It's amazing to find a community that really just wants to see others learn.
+
+From what I've seen over the last couple of years, the only real way to get good at anything is to have both a passion for what you're doing and people to support you. I've met some amazing people in security who have only one of those qualities, but they definitely could have been much better if they had both.

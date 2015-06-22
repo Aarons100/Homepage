@@ -58,12 +58,16 @@ a {
 }
 #return {
 	cursor: pointer;
+	display: block;
 }
 footer {
 
 	width: 100%;
-	margin-bottom: 0%;
+	bottom: 0px;
 	text-align: center;
+	position: fixed;
+	display: block;
+
 }
 footer p {
 
