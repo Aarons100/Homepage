@@ -71,7 +71,7 @@ $(document).ready(function() {
 			foo += "<li><h3>BLOG LINK WILL GO HERE</h3></li>"
 			foo += "</ul>";
 
-			$("#main-menu").html("<div id='projects-list'>" + foo + "</div><div id='return'>RETURN TO MAIN MENU</div>");
+			$("#main-menu").html("<div id='projects-list'>" + foo + "</div><br/><div id='return'>RETURN TO MAIN MENU</div>");
 
 			reinit();
 		});
