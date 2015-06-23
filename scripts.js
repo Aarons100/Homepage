@@ -85,8 +85,4 @@ $(document).ready(function() {
 	$(function() {
     	$( "#my_image" ).draggable();
   	});
-  		//makes my image draggable
-	$(function() {
-    	$( "#the_footer a" ).draggable();
-  	});
 });
