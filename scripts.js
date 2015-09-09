@@ -45,7 +45,7 @@ $(document).ready(function() {
 			foo += "<li><h3>Malware Analysis, Fall 2015 (CSCI - 4976/6976)</h3>";
 			foo += "<ul><li><p>The course is a graduate/senior level class that teaches the fundamentals of software reverse engineering, Windows internals, and malware behavior in order to provide students with the tools and experience to step directly into the field of malware analysis.";
 			foo += " This class is based on the Practical Malware Analysis and Practical Reverse Engineering books, which are both very excellent for entry level, intermediate, and advanced reverse engineers.</p></li>";
-			foo += "<br><h4 style='display:inline;'>I will add a link to the class syllabus and website once they are finalized.</h4></li></ul>"
+			foo += "<br><h4 style='display:inline;'>I will add a link to the class <a href="http://rpis.ec/malware">syllabus</a> and website once they are finalized.</h4></li></ul>"
 			
 			foo += "<li><h3>CTF and Wargame Writeups</h3>"
 			foo += "<ul>"
