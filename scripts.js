@@ -12,7 +12,7 @@ $(document).ready(function() {
 		var temp = "<h1 id='menu-header'>MAIN MENU</h1>";
 		temp += "<ul>"
 			temp += "<li id='about'>ABOUT ME</li>";
-			temp += "<br><li><a href="https://github.com/Aarons100/">Github</a></li>"
+			temp += "<br><li><a href='https://github.com/Aarons100/'>Github</a></li>"
 			temp += "<br><li id='blogs'>RECOMMENDED BOOKS AND WARGAMES FOR FUN AND PROFIT</li>"
 			temp += "<br><li><a href='./resources/resume.pdf' id='resume'>RÈSUMÈ (PDF)</a></li>";
 			temp += "<br><li id ='work'>TEACHING, WRITEUPS, AND RESEARCH</li>";
